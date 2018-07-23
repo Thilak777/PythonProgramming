@@ -1,5 +1,5 @@
 a=int(input())
-c=a/60
+c=a//60
 d=a%60
-print(int(c),d)
+print(c,d)
       
