@@ -1,6 +1,8 @@
-a=(input('Enter the value:'))
+a=int(input('Enter the value:'))
 b=a%2
 if b==0:
-      print "even"
+      print ("even")
+elif b!=0:
+      print( "odd")
 else:
-      print "odd"
+      print ("invalid")
