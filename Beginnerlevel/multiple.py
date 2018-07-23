@@ -1,4 +1,5 @@
 a=int(input())
+s=[]
 for i in range(1,6):
-  temp=a*i
-  print(str(temp)+"\t")
+  s.append(a*i)
+  print(s)
